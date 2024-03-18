@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - RTECH Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="#">Admin Panel</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#">About</a></li>
+                <!-- RTECH Hub navigation -->
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="admin-panel">
+        <!-- Admin panel section -->
+        <div class="container">
+            <h2>Edit Main RTECH Hub Content</h2>
+            <form action="save_content.php" method="POST">
+                <label for="content">Content:</label><br>
+                <textarea id="content" name="content" rows="10" cols="50" required></textarea><br><br>
+                <input type="submit" value="Save Changes">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer -->
+        <div class="container">
+            <p>&copy; 2024 RTECH Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</htm
